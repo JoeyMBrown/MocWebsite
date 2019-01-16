@@ -1,0 +1,81 @@
+/* Banner for webpage */
+#banner {
+    border: 1px solid black;
+    margin: 0px 0px 0px 0px;
+    padding: 1px;
+    width: 100%;
+    min-height: 100px;
+    max-height: 110px;
+    text-align: center;
+    background-color: midnightblue;
+  }
+  
+  /* All about links */
+  /* links is the physical text. */
+  ul {
+    border: 1px solid black;
+    border-top-width: 0px;
+    text-align: center;
+    list-style-type: none;
+    background-color: gray;
+    height: 20px;
+    margin: 0px 0px 0px 0px;
+  }
+  li > a:active {
+    color: blue;
+  }
+  li {
+    display: inline;
+    margin-right: 10px;
+  }
+  /* a:link refers to every link and what happens when they're pressed, hovered over, have been visitied, or are being clicked on. */
+  a:link {
+    text-decoration: none;
+    color: white;
+  }
+  a:visited {
+    color: black;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: darkred;
+  }
+  a:active {
+    color: black;
+  }
+  p a:link {
+    text-decoration: underline;
+  }
+  p a:link {
+    color: black;
+  }
+  
+  p a:hover {
+    text-decoration: underline;
+    color: darkred;
+  }
+  /*This is the information and body of the site's structure.*/
+  #info {
+    text-align: center;
+  }
+  #donation {
+    text-align: left;
+    width: 400px;
+    border: 1px solid black;
+    border-top: 0px;
+    padding: 0px 7px 5px 7px;
+    margin: 0px 0px 0px 50px;
+  }
+  #donation1 {
+    text-align: center;
+    width: 400px;
+    border: 1px solid black;
+    border-bottom: 0px;
+    padding: 10px 7px 10px 7px;
+    margin: 50px 0px 0px 50px;
+  }
+  #picture1 {
+    display: inline;
+  }
+  /*Hi this is a css comment.*/
+  
