@@ -166,5 +166,6 @@ body {
   bottom: 0px;
   margin: 0px;
   text-align: center;
+  z-index: 10;
 }
 /*Hi this is a css comment.*/
