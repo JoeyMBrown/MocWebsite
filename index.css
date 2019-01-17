@@ -7,7 +7,8 @@
   height: 100px;
   text-align: center;
   margin: 0px;
-  background-color: grey;
+  background-color: lightgrey;
+  box-shadow: 5px 5px 5px #777777;
   border-radius: 5px;
 }
 #banner img {
@@ -22,7 +23,8 @@
 #navbar {
   border: 1px solid black;
   border-top-width: 0px;
-  background-color: grey;
+  background-color: lightgrey;
+  box-shadow: 5px 5px 5px #777777;
   border-radius: 5px;
   text-align: center;
   list-style-type: none;
@@ -41,7 +43,7 @@
 }
 #search_text {
   float: left;
-  color: white;
+  color: black;
   padding: 0px 10px 0px 0px;
 }
 input#search {
@@ -111,6 +113,7 @@ body {
   background-color: gray;
   padding: 5px;
   border-radius: 10px;
+  box-shadow: 5px 5px 5px #777777;
 }
 .column {
   text-align: left;
@@ -118,6 +121,8 @@ body {
   padding: 5px;
   clear: both;
   color: black;
+  background-color: lightgray;
+  box-shadow: 5px 5px 5px #777777;
 }
 #column_1 {
   float: left;
@@ -162,7 +167,7 @@ body {
 /*This is the footer*/
 #footer_list {
   list-style-type: none;
-  background-color: gray;
+  background-color: lightgray;
   border: 1px solid black;
   border-radius: 5px;
   margin: 0px;
