@@ -1,13 +1,14 @@
 /* Banner for webpage */
 
 #banner {
-  border: 1px solid white;
+  border: 1px solid black;
   padding: 1px;
   width: 960px;
   height: 100px;
   text-align: center;
-  background-color: gray;
   margin: 0px;
+  background-color: grey;
+  border-radius: 5px;
 }
 #banner img {
   position: absolute;
@@ -15,20 +16,24 @@
   width: 100px;
   margin: 0px;
 }
+#banner h1 {
+  opacity: 1;
+}
 #navbar {
-  border: 1px solid white;
+  border: 1px solid black;
   border-top-width: 0px;
+  background-color: grey;
+  border-radius: 5px;
   text-align: center;
   list-style-type: none;
-  background-color: gray;
   height: 20px;
   margin: 0px;
   width: 962px;
-  color: white;
 }
 #navbar ul {
   margin: 0px;
-  padding: 0px 10px 0px 0px;
+  padding: 0px 3px 0px 0px;
+  z-index: 10;
 }
 #search_bar {
   float: left;
@@ -62,7 +67,7 @@ li {
 /* a:link refers to every link and what happens when they're pressed, hovered over, have been visitied, or are being clicked on. */
 a:link {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 a:visited {
   color: black;
@@ -78,7 +83,7 @@ p a:link {
   text-decoration: underline;
 }
 p a:link {
-  color: white;
+  color: black;
 }
 
 p a:hover {
@@ -89,11 +94,12 @@ p a:hover {
 body {
   width: 960px;
   margin: 0px auto;
-  background-color: black;
+  background-repeat: repeat-x repeat-y;
+  background-image: url("https://uploads.codesandbox.io/uploads/user/51e3018a-b58d-4793-8239-07d7e3a2102d/izYk-background-texture1.jpg");
 }
 #info {
   text-align: right;
-  color: white;
+  color: black;
 }
 #img {
   margin: 0px auto 0px auto;
@@ -101,7 +107,7 @@ body {
 }
 .column_title {
   text-align: center;
-  border: 1px solid white;
+  border: 1px solid black;
   background-color: gray;
   padding: 5px;
   border-radius: 10px;
@@ -111,7 +117,7 @@ body {
   border: 1px solid black;
   padding: 5px;
   clear: both;
-  color: white;
+  color: black;
 }
 #column_1 {
   float: left;
@@ -157,7 +163,8 @@ body {
 #footer_list {
   list-style-type: none;
   background-color: gray;
-  border: 1px solid white;
+  border: 1px solid black;
+  border-radius: 5px;
   margin: 0px;
 }
 #footer {
